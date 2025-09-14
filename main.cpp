@@ -11,6 +11,10 @@ const int ARRAY_SIZE = 5;
 double* arr = new double[ARRAY_SIZE];   
 
 void enterArrayData();
+void outputArrayData()
+
+
+
 int main()
 {
 
@@ -28,4 +32,23 @@ void enterArrayData()
     }
     
 
+}
+
+void outputArrayData()
+{
+    cout<<"The element are: ";
+    for(int i =0 ;i<ARRAY_SIZE;i++)
+    {
+       cout<<*(arr+i)<<" ";
+    }
+
+}
+
+double sumArray()
+{
+    double tempSum = 0;
+    for (int i = 0;i<ARRAY_SIZE;i++)
+    {
+        
+    }
 }
